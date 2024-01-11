@@ -1,0 +1,25 @@
+{
+  "name": "nosql_challenge-social_network_api",
+  "version": "1.0.0",
+  "description": "NoSQL Challenge: Social Network API - MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node utils/seed",
+    "heroku-postbuild": "node utils/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "luxon": "^3.3.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
